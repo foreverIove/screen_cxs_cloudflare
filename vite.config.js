@@ -13,8 +13,9 @@ export default defineConfig(({ command }) => {
         // mockPath: './mock/', //解析根目录下的mock文件夹
         localEnabled: true,
         prodEnabled: true,
-        supportTs: false,
+        supportTs: true,
         logger: false,
+        enable: true,
         mockPath: './src/mock'
       }),
       // 图片压缩

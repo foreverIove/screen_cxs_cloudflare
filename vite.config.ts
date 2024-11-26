@@ -11,8 +11,8 @@ export default defineConfig(({ command }) => {
       vue(),
       viteMockServe({
         // mockPath: './mock/', //解析根目录下的mock文件夹
-        localEnabled: command === 'serve',
-        prodEnabled: command === 'serve',
+        localEnabled: true,
+        prodEnabled: true,
         supportTs: false,
         logger: false,
         mockPath: './src/mock'

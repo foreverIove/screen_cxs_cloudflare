@@ -261,7 +261,7 @@ const boxAll = ref(null)
     text-align: center;
     &:hover {
       // background: rgba(63, 80, 230, 0.7);
-      background: url(@/assets/images/pageOne/menu-active.png) 100% no-repeat;
+      background: url(@/assets/images/PageOne/menu-active.png) 100% no-repeat;
       background-size: 100% 100%;
     }
   }
@@ -273,7 +273,7 @@ const boxAll = ref(null)
     text-align: center;
     &:hover {
       // background: rgba(63, 80, 230, 0.7);
-      background: url(@/assets/images/pageOne/menu-active.png) 100% no-repeat;
+      background: url(@/assets/images/PageOne/menu-active.png) 100% no-repeat;
       background-size: 100% 100%;
     }
   }
